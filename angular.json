@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-flex-input",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -48,6 +48,7 @@
                   "maximumError": "4kb"
                 }
               ],
+              "baseHref": "https://ivanvoznyi.github.io/Angular-Flex-Input/",
               "outputHashing": "all"
             },
             "development": {
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "20b3d170-16e4-4e7f-a227-bec127369860"
   }
 }

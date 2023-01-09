@@ -1,0 +1,49 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 2vw;
+
+    &[for=second] {
+        font-family: "EB Garamond";
+    }
+
+    &[for=third] {
+        font-family: "Shadows Into Light";
+    }
+
+    &[for=fourth]{
+        font-family: 'Fredoka One';
+    }
+
+    &[for=fifth] {
+        font-family: 'Martian Mono';
+    }
+}
+
+input {
+    font-size: 2vw;
+    width: 10%;
+
+    &#second {
+        font-family: "EB Garamond";
+    }
+
+    &#third {
+        font-family: "Shadows Into Light";
+    }
+
+    &#fourth {
+        font-family: 'Fredoka One';
+    }
+
+    &#fifth {
+        font-family: 'Martian Mono';
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
